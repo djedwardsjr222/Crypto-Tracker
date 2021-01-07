@@ -148,8 +148,8 @@ class App extends Component {
                         <th scope="col">Logo</th>
                         <th scope="col">Name</th>
                         <th scope="col">Price</th>
-                        <th scope="col">Market Cap</th>
                         <th scope="col">24 Hour Volume</th>
+                        <th scope="col">Market Cap</th>
                       </tr>
                     </thead>
                       <tbody>
@@ -160,8 +160,8 @@ class App extends Component {
                               <td><img src={data.img} width="25" height="25" className="d-inline-block align-top" alt="" /></td>
                               <td><a target="_blank" rel="noopener noreferrer" href={"https://coinpaprika.com/coin/" + data.id}>{data.name}</a></td>
                               <td>${(data.quotes.USD.price).toFixed(2)}</td>
-                              <td>${(data.quotes.USD.market_cap).toLocaleString("fr-CH")}</td>
                               <td>${(data.quotes.USD.volume_24h).toLocaleString("fr-CH")}</td>
+                              <td>${(data.quotes.USD.market_cap).toLocaleString("fr-CH")}</td>
                             </tr>
                           )
                         })}
