@@ -1,2 +1,6 @@
-# Crypto-Tracker
-Tracks the rank, price, and market cap of as many cryptocurrencies as you want. Uses React.js &amp; Coinpaprika.
+# Crypto Cashier
+
+Tracks any cryptocurrency's rank, current price, market cap and 24hr volume you want. 
+
+#### Notes
+- Must enter your own api key.
